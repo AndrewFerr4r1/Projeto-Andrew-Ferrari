@@ -1,29 +1,21 @@
-body{
-    margin: 2;
-    font-family: arial;
+.header {
+    background-color: #000407;
+    color: #32B9CD;
+    
 }
 
-
-h1{
-    color: dodgerblue;
-    font-family: monospace;
+.container {
+   width: 80%;
 }
 
-h3{
-    color: indigo;
-    font-family: monospace;
+.header .container {
+    display: flex;
+    justify-content: space-between;
 }
 
-span{
-    color: dimgray;
-    font-family: Arial;
-    font-size: 18px;
-}
-
-.destaque {
-    background-color: yellow;
-}
-
-#destaqueEspecial {
-    background-color: aquamarine;
+.navbar {
+    display: flex;
+    list-style: none;
+    width: 400px;
+    justify-content: space-around;
 }
