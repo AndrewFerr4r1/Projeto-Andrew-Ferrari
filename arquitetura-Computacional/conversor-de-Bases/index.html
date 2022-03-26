@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/conversor.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Conversor de Bases</h1>
+        <br><br>
+        <h3>converter</h3>
+        <input id="inputDecimal" type="text" placeholder="Digite um valor decimal">
+        <button class="b1" onclick="converterDecimal()">Converter</button><br><br>
+        <input id="inputBinario" type="text" placeholder="Digite um valor binário">
+        <button class="b2" onclick="converterBinario()">Converter</button><br><br>
+        <input class="b3" id="inputOctal" type="text" placeholder="Digite um valor octal">
+        <button onclick="converterOctal()">Converter</button><br><br>
+        <input id="inputHexa" type="text" placeholder="Digite um valor hexadecimal">
+        <button class="b4" onclick="converterHexa()">Converter</button>
+        <br><br><br>
+        <div id="resultado"></div>
+    </div>
+</body>
+
+</html>

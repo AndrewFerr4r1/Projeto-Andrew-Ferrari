@@ -1,0 +1,31 @@
+.amareloClaro {
+    background-color: #ffa500; 
+    height: 500px; 
+    width: 500px;
+}
+
+.verdeClaro {
+    background-color: #90ee90; 
+    height: 250px; 
+    width: 250px;
+}
+
+p {
+    color: white; 
+    background-color: red; 
+    font-size: 25px; 
+    font-family: monospace; 
+    font-weight: bold;
+}
+
+.rgbAzulClaro {
+    width: 50%; 
+    height: 500px; 
+    background-color: rgb(24, 146, 228);
+}
+
+.rgbVermelho {
+    width: 75%; 
+    height: 50%; 
+    background-color: rgb(255, 2, 2);
+}
