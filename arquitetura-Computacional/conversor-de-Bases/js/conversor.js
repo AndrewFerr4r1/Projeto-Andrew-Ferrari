@@ -1,6 +1,3 @@
-
-
-
 function converterDecimal() {
     var decimal = parseInt(document.getElementById("inputDecimal").value);
     var binario = decimal.toString(2);
