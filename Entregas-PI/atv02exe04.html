@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 4</title>
+</head>
+<body>
+    <div class="principal">
+        <div class="box">
+            <p> Eu sou um parágrafo com fonte Arial que ficou bem legal!</p>
+        </div>
+    </div>
+    <div class="principal2">
+        <div id="azul"></div>
+        <div id="roxo"></div>
+        <div id="verde"></div>
+        <div id="amarelo"></div>
+    </div>
+    <div class="principal3">
+        <div id="vermelho"></div>
+        <div id="cinza_azul"></div>
+        <div id="verde_claro"></div>
+    </div>
+</body>
+</html>
+
+<style>
+    .principal{
+        background-color: rgb(153, 93, 78);
+        width: 70vw;
+        height: 40vh;
+        border: solid;
+        border-color: black;
+        border-width: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box{
+        background-color: rgb(255, 255, 255);
+        width: 80%;
+        height: 70%;
+        border: solid;
+        border-color: rgb(3, 3, 179);
+        border-width: 10px;
+        font-family: Arial;
+        font-size: 20px;
+        font-weight: bold;
+        color: blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .principal2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 4%;
+        height: 30vh;
+        width: 100vw;
+    }
+    #azul{
+        height:7vh;
+        width: 75vw;
+        background-color: blue;
+    }
+    #roxo{
+        height:7vh;
+        width: 46vw;
+        background-color: rgb(74, 32, 122);
+    }
+    #verde{
+        height:7vh;
+        width: 64vw;
+        background-color: rgb(32, 100, 11);
+    }
+    #amarelo{
+        height:7vh;
+        width: 55vw;
+        background-color: rgb(247, 231, 19);
+    }
+    .principal3{
+        margin-top: 4%;
+        display: flex;
+        flex-direction: row;
+        justify-content: baseline;
+    }
+    #vermelho{
+        background-color: red;
+        height: 7vh;
+        width: 45vw;
+    }
+    #cinza_azul{
+        background-color: #1f7d8a;
+        height: 7vh;
+        width: 20vw;
+    }
+    #verde_claro{
+        background-color: #80f334;
+        height: 7vh;
+        width: 35vw;
+    }
+</style>
