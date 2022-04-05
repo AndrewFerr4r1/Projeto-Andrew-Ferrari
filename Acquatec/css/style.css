@@ -106,11 +106,40 @@ form button {
     margin-left: 20%;
 }
 
+.imgs-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-telaInicial {
+    height: 200px;
+    margin-top: 10%;
+}
+
+.Titulo-Tela-Inicial-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.letraTitulo {
+    color: #e6005a;
+}
+
+.letras-tela-inicial-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.letraTelaInicial {
+    color: black;
+}
+
 .footer {
     background-color: #32B9CD;
     color: white;
     display: flex;
     height: 150px;
+    margin-top: 10%;
 }
 
 .footer .container{
