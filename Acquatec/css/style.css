@@ -98,6 +98,7 @@ form button {
     display: flex;
     color: white;
     align-items: center;
+    height: 745px;
 }
 
 .banner p{
@@ -139,7 +140,6 @@ form button {
     color: white;
     display: flex;
     height: 150px;
-    margin-top: 10%;
 }
 
 .footer .container{
