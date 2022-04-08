@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border: 2px solid blue;
+    width: 80%;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.login {
+    display: flex;
+    border: 2px solid gray;
+    justify-content: center;
+    margin-top: 200px;
+    background-color: rgb(126, 108, 86);
+    width: 200px;
+}
+
