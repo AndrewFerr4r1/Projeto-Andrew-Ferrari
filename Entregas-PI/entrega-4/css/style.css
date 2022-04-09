@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: flex;
+}
+
+.um {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.dois {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tres {
+    display: flex;
+    justify-content: center;
+}
+
+.quatro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cinco {
+    display: flex;
+    justify-content: space-around;
+}
+
+.seis {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.azulClaro {
+    background-color: aqua;
+    padding: 20px;
+}
+
+.roxo {
+    background-color: purple;
+    padding: 20px;
+}
+
+.rosa {
+    background-color: rgb(240, 49, 166);
+    padding: 20px;
+}
+
+.amarelo {
+    background-color: yellow;
+    padding: 20px;
+}
