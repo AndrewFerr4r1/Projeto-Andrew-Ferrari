@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: flex;
+    list-style: none;
+}
+
+.container1 {
+    background-color: rgb(196, 190, 190);
+    margin: 0;
+}
+
+.um {
+    width: 5%;
+}
+
+ul .um{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.azulClaro {
+    background-color: aqua;
+    padding: 20px;
+}
+
+.azulEscuro {
+    background-color: rgb(52, 0, 110);
+    padding: 20px;
+}
+
+.rosa {
+    background-color: rgb(240, 49, 166);
+    padding: 20px;
+}
+
+.laranja {
+    background-color: orange;
+    padding: 20px;
+}

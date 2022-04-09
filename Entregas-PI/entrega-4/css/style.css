@@ -6,6 +6,36 @@ li {
     display: flex;
 }
 
+.container1 {
+    background-color: rgb(196, 190, 190);
+    margin-top: 2%;
+}
+
+.container2 {
+    background-color: rgb(196, 190, 190);
+    margin-top: 2%;
+}
+
+.container3 {
+    background-color: rgb(196, 190, 190);
+    margin-top: 2%;
+}
+
+.container4 {
+    background-color: rgb(196, 190, 190);
+    margin-top: 2%;
+}
+
+.container5 {
+    background-color: rgb(196, 190, 190);
+    margin-top: 2%;
+}
+
+.container6 {
+    background-color: rgb(196, 190, 190);
+    margin-top: 2%;
+}
+
 .um {
     display: flex;
     justify-content: flex-start;
@@ -41,8 +71,8 @@ li {
     padding: 20px;
 }
 
-.roxo {
-    background-color: purple;
+.azulEscuro {
+    background-color: rgb(52, 0, 110);
     padding: 20px;
 }
 
@@ -51,7 +81,7 @@ li {
     padding: 20px;
 }
 
-.amarelo {
-    background-color: yellow;
+.laranja {
+    background-color: orange;
     padding: 20px;
 }
