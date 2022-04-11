@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    justify-content: center; 
+}
+
+.grafico1 {
+    width: 500px;
+}
+
+.grafico2 {
+    width: 500px;
+}
